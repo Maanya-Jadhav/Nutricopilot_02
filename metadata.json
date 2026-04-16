@@ -1,0 +1,5 @@
+{
+  "name": "NutriCoPilot",
+  "description": "An AI-native consumer health co-pilot that decodes food labels, interprets ingredients, and provides instant decision support.",
+  "requestFramePermissions": []
+}
