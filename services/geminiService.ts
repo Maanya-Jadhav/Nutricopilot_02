@@ -2,7 +2,7 @@ import { GoogleGenAI, Type } from '@google/genai';
 import { AnalysisResult } from '../types';
 
 export const analyzeIngredients = async (input: { text?: string, imageBase64?: string }): Promise<AnalysisResult> => {
-    const apiKey = (import.meta as any).env.VITE_GEMINI_API_KEY;
+    const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
     const ai = new GoogleGenAI({ apiKey });
     const contents: any[] = [];
     
